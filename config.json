@@ -1,19 +1,15 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://writings.elhakim.me",
+  "site_title": "كتاباتي",
+  "site_description": "كتابات تحوي أفكاراً وعواطفَ شخصية أحتاج إلى إفراغها كي أجد مكاناً لما هو نافع.",
   "site_keywords": [
-    {
-      "keyword": "Next.js"
-    },
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
+    "محمود",
+    "الحكيم",
+    "كتابات",
+    "شخصية",
+    "أدبيات"
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "@elhakimdev",
+  "github_account": " "
 }
