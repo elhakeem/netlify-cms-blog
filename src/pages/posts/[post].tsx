@@ -71,12 +71,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const mdxSource = await renderToString(content, { components, scope: data });
   return {
     props: {
-      title: data.title,
-      dateString: data.date,
-      slug: data.slug,
+      title: data.title || "",
+      dateString: data.date || new Date().toISOString(),
+      slug: data.slug || "",
       description: "",
-      tags: data.tags,
-      author: data.author,
+      tags: data.tags || [],
+      author: data.author || "",
       source: mdxSource
     },
   };

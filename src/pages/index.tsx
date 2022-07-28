@@ -13,7 +13,7 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            كتابات<span className="fancy">.</span>
+            كتابات الحكيم<span className="fancy">.</span>
           </h1>
           <span className="handle">writings.elhakim.me</span>
           <h2>كتابات تحوي أفكاراً وعواطفَ شخصية أحتاج إلى إفراغها كي أجد مكاناً لما هو نافع.</h2>
@@ -36,7 +36,7 @@ export default function Index() {
         h2 {
           font-size: 1.75rem;
           font-weight: 400;
-          line-height: 1.25;
+          line-height: 1.50;
         }
         .fancy {
           color: #15847d;

@@ -54,11 +54,13 @@ export default function Navigation() {
             .active ul {
               opacity: 1;
               transform: translateY(0);
+              text-align: right;
             }
             li {
               margin-bottom: 1.75rem;
               font-size: 2rem;
-              padding: 0 1.5rem 0 0;
+              padding: 0;
+              padding-inline-start: 1.5rem;
             }
             li:last-child {
               margin-bottom: 0;
