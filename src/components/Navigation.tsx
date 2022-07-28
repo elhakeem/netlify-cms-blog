@@ -13,7 +13,7 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>عن الموقع</a>
             </Link>
           </li>
           <li>
@@ -23,7 +23,7 @@ export default function Navigation() {
                   router.pathname.startsWith("/posts") ? "active" : null
                 }
               >
-                blog
+                الكتابات
               </a>
             </Link>
           </li>
@@ -37,7 +37,7 @@ export default function Navigation() {
               opacity: 0;
               width: 100%;
               height: 100vh;
-              text-align: right;
+              text-align: left;
               list-style: none;
               margin: 0;
               padding: 0;

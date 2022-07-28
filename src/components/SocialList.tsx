@@ -27,7 +27,7 @@ export function SocialList({}) {
           display: inline-block;
         }
         a:not(:last-child) {
-          margin-right: 2em;
+          margin-inline-end: 2em;
         }
       `}</style>
     </div>
