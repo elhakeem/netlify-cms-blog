@@ -2,13 +2,7 @@
   "base_url": "https://writings.elhakim.me",
   "site_title": "كتاباتي",
   "site_description": "كتابات تحوي أفكاراً وعواطفَ شخصية أحتاج إلى إفراغها كي أجد مكاناً لما هو نافع.",
-  "site_keywords": [
-    "محمود",
-    "الحكيم",
-    "كتابات",
-    "شخصية",
-    "أدبيات"
-  ],
+  "site_keywords": [],
   "posts_per_page": 5,
   "twitter_account": "@elhakimdev",
   "github_account": "elhakeem"
