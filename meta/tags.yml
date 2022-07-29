@@ -1,1 +1,11 @@
-tags: []
+tags:
+  - slug: sadness
+    name: حزن
+  - slug: happiness
+    name: فرح
+  - slug: hope
+    name: أمل
+  - slug: satisfaction
+    name: رضا
+  - slug: romance
+    name: حب وعاطفة
